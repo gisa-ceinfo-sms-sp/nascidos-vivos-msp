@@ -6,7 +6,7 @@ Rotina em R para geração de tabelas, mapas estáticos com as frequências rela
 **Instituição:** Secretaria Municipal da Saúde de São Paulo\
 **Departamento:** Núcleo de Geoprocessamento e Informação Socioambiental (GISA) / Coordenação de Epidemiologia e Informação (CEInfo)\
 **Coordenador:** Marcelo Antunes Failla\
-**Repositório:** https://github.com/gisa-ceinfo-sms-sp\
+**Repositório:** https://github.com/gisa-ceinfo-sms-sp \
 **Parceiro de Programação:** Gemini AI\
 **Data da versão:** 24 de junho de 2025\
 
