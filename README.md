@@ -11,11 +11,9 @@ Rotina em R para geração de tabelas, mapas estáticos com as frequências rela
 *Data da versão:* 24 de junho de 2025
 
 Arquivos gerados
-![image](https://github.com/user-attachments/assets/42aa0144-4b79-474f-8a10-93a95c8a1dcb)
+![image](https://github.com/user-attachments/assets/bb43e79d-508e-4697-bf2f-71e451b2806e)
 
-![image](https://github.com/user-attachments/assets/2f56e4e4-5ab8-4944-bbe8-df83990a2255)
-
-Termos de reponsabilização
+Termos de reponsabilização para acesso restrito dos técnicos aos dados sensíveis
 ![image](https://github.com/user-attachments/assets/bc61fc51-58fd-4f84-a2ea-5e6ca70106d8)
 
 Mapa dinâmico com a distribuição dos eventos sobre mapas-base, organizados em camadas segundo características do parto, da parturiente, do(s) nascido(s) vivo(s) e da vulnerabilidade do entorno do domicílio.
