@@ -3,12 +3,12 @@
 Distribuição Espacial e dados dos Nascidos Vivos (NV) registrados no SINASC de parturientes residentes no Município de São Paulo
 Rotina em R para geração de tabelas, mapas estáticos com as frequências relativas e mapa dinâmico com dados para consulta dos dados sensíveis.
 
-**Instituição:** Secretaria Municipal da Saúde de São Paulo/
-**Departamento:** Núcleo de Geoprocessamento e Informação Socioambiental (GISA) / Coordenação de Epidemiologia e Informação (CEInfo)/
-**Coordenador:** Marcelo Antunes Failla/
-**Repositório:** https://github.com/gisa-ceinfo-sms-sp/
-**Parceiro de Programação:** Gemini AI/
-**Data da versão:** 24 de junho de 2025/
+**Instituição:** Secretaria Municipal da Saúde de São Paulo.
+**Departamento:** Núcleo de Geoprocessamento e Informação Socioambiental (GISA) / Coordenação de Epidemiologia e Informação (CEInfo).
+**Coordenador:** Marcelo Antunes Failla.
+**Repositório:** https://github.com/gisa-ceinfo-sms-sp.
+**Parceiro de Programação:** Gemini AI.
+**Data da versão:** 24 de junho de 2025.
 
 Arquivos gerados
 ![image](https://github.com/user-attachments/assets/bb43e79d-508e-4697-bf2f-71e451b2806e)
