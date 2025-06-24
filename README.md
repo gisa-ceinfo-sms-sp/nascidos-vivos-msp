@@ -1,6 +1,6 @@
 # Nascidos Vivos no Município de São Paulo
 
-Distribuição Espacial e dados dos Nascidos Vivos (NV) registrados no SINASC de parturientes residentes no Município de São Paulo
+Distribuição Espacial e dados dos Nascidos Vivos (NV) registrados no SINASC de parturientes residentes no Município de São Paulo. \
 Rotina em R para geração de tabelas, mapas estáticos com as frequências relativas e mapa dinâmico com dados para consulta dos dados sensíveis. \
 
  
