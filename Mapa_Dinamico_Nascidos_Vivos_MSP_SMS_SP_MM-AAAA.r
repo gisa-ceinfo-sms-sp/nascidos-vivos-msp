@@ -96,7 +96,8 @@ PATH_DADOS_NV <- "//smsahmserver01//Ceinfo-Planejamento$//SINASC//00Marcelo_Base
 # Caminho base para salvar os outputs (tabelas e mapas estáticos)
 BASE_OUTPUT_PATH <- "//smsahmserver01//Ceinfo-Planejamento$//SINASC//00Marcelo_BasesRN_Risco2020//mensal"
 
-
+# Caminho base para salvar os outputs DE TESTES (tabelas e mapas estáticos)
+#BASE_OUTPUT_PATH <- "//smsahmserver01/Ceinfo-Planejamento$/CEInfo_GEO/SCRIPTS_MODELO_R/testes/nascidos_vivos_msp/"
 
 # Caminhos de imagens para o mapa dinâmico
 URL_BANNER_MAPA <- "https://raw.githubusercontent.com/gisa-ceinfo-sms-sp/dados/refs/heads/main/banner_NV_webmap_jan2025.png"
@@ -1115,13 +1116,16 @@ gerar_mapa_dinamico_leaflet <- function(resultados_metricas, dados_brutos_proces
   message("Criando o mapa Leaflet e adicionando camadas na ordem correta...")
   
   mapa_leaflet_final <- leaflet::leaflet(options = leaflet::leafletOptions(title = "Nascidos Vivos no Município de São Paulo")) %>%
-    leaflet::addProviderTiles(leaflet::providers$CartoDB.Positron, group = "CartoDB Positron") %>%
-    leaflet::addProviderTiles(leaflet::providers$OpenStreetMap, group = "OpenStreetMap") %>%
-    leaflet::addProviderTiles(leaflet::providers$Esri.WorldStreetMap, group = "Esri World Street Map") %>%
+    setView(lng = -46.6138637, lat = -23.6495082, zoom = 11) %>%
+    leaflet::addProviderTiles(leaflet::providers$CartoDB.Positron, group = "Mapa-base de vias (cinza) | Carto DB") %>%
+    leaflet::addProviderTiles(leaflet::providers$OpenStreetMap, group = "Mapa-base de vias | OpenStreetMap") %>%
+    leaflet::addProviderTiles(leaflet::providers$Esri.WorldImagery, group = "Imagem de satélite | Esri World Imagery") %>%
+    
     
     leaflet::addPolygons(data = shapeIPVS_filtrado, color = "black", weight = 0.2, fillOpacity = 0.6, fillColor = ~pal_ipvs(IPVS_Desc), popup = ~htmltools::htmlEscape(paste("Vulnerabilidade: ", IPVS_Desc)), group = "Vulnerabilidade Social (IPVS)") %>%
     
     leaflet::addPolygons(data = shapeCRSSUBSwgs84, color = "black", weight = 3.2, fillOpacity = 0.0, fillColor = NA, label = ~CRS, group = "Coordenadoria Regional de Saúde (CRS)") %>%
+    
     leaflet::addPolygons(data = shapeSTSUBSwgs84, color = "black", weight = 2.0, fillOpacity = 0.0, fillColor = NA, label = ~STS, group = "Supervisão Técnica de Saúde (STS)") %>%
     
     leaflet::addPolygons(data = shapeAAUBSwgs84, color = "black", weight = 1.2, fillOpacity = 0.0, fillColor = NA, label = ~NOMEUBS, group = "Área de Abrangência de UBS (AAUBS)") %>%
@@ -1213,7 +1217,11 @@ gerar_mapa_dinamico_leaflet <- function(resultados_metricas, dados_brutos_proces
     
     # Adiciona controles de camada
     leaflet::addLayersControl(
-      baseGroups = c("CartoDB Positron", "OpenStreetMap", "Esri World Street Map"),
+      baseGroups = c("Mapa-base de vias (cinza) | Carto DB", "Mapa-base de vias | OpenStreetMap", "Imagem de satélite | Esri World Imagery"),
+      
+      
+      
+      
       overlayGroups = c(
         "Coordenadoria Regional de Saúde (CRS)",
         "Supervisão Técnica de Saúde (STS)",
