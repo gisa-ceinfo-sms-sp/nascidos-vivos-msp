@@ -20,7 +20,7 @@ Arquivos gerados
 Tabelas:
 ![image](https://github.com/user-attachments/assets/bb43e79d-508e-4697-bf2f-71e451b2806e)
 
-Mapas estáticos com a distribuição espacial das frequências relativas e absolutas segundo as áreas de abrangência de UBS, para o MSP e para cada uma das 6 CRS:
+Mapas estáticos com a distribuição espacial das frequências relativas e absolutas segundo as áreas de abrangência de UBS de residência das parturientes, para o MSP e para cada uma das 6 CRS:
 
 ![image](https://raw.githubusercontent.com/gisa-ceinfo-sms-sp/dados/refs/heads/main/imagens_mapas_mensais_nv_rnrisco_aaubs_msp.png)
 
