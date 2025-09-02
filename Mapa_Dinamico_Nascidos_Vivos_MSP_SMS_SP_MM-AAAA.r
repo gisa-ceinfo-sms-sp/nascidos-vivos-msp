@@ -91,7 +91,7 @@ PATH_SHAPE_AAUBS <- "//seulocal//dados//AAUBS_MSP_2024_UTM_SIRGAS2000_23S.shp"
 PATH_SHAPE_STSUBS <- "//seulocal//dados//STS_2020_WGS84.shp"
 PATH_SHAPE_CRSSUBS <- "//seulocal//dados//CRS_2020_WGS84.shp"
 PATH_SHAPE_IPVS <- "//seulocal//dados//MalhaUniverso_MSP_IPVS2010.shp" #DESCOMPACTE o arquivo ZIPado antes !
-PATH_DADOS_NV <- "//seulocal//dados//modelo_dados_FALSOS_p_script_SINASC_RNRISOC_revGISA_AAUBS_NAO_INTERPRETAR.xlsx"
+PATH_DADOS_NV <- "//seulocal//dados//modelo_dados_FALSOS_p_script_SINASC_RNRISCO_revGISA_AAUBS_NAO_INTERPRETAR.xlsx"
 
 # Caminho base para salvar os outputs (tabelas e mapas estáticos)
 BASE_OUTPUT_PATH <- "//seulocal//saidas//mensal"
