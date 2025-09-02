@@ -6,7 +6,7 @@
 # Coordenador: Marcelo Antunes Failla
 # Repositório: https://github.com/gisa-ceinfo-sms-sp
 # Parceiro de Programação: Gemini AI
-# Data da versão: 24 de junho de 2025
+# Data da versão: 02 de setembro de 2025
 #
 # Objetivo:
 # Reestruturar um sistema de mapeamento e análise de dados de nascidos vivos,
@@ -87,17 +87,17 @@ library(spData)
 # --- 1.3. Definição dos Caminhos dos Arquivos e Pastas de Saída ---
 
 # Caminhos dos arquivos de entrada
-PATH_SHAPE_AAUBS <- "//smsahmserver01//Ceinfo-Planejamento$//CEInfo_GEO//compartilhamento_temporario//Bases_cartograficas_Revisao_AAUBS_ESF_2023_2024//AAUBS2024//AAUBS_MSP_2024_UTM_SIRGAS2000_23S.shp"
-PATH_SHAPE_STSUBS <- "//smsahmserver01//Ceinfo-Planejamento$//CEInfo_GEO//compartilhamento_temporario//Bases_cartograficas_Revisao_AAUBS_ESF_2023_2024//STS_UBS2022//STS_2020_WGS84.shp"
-PATH_SHAPE_CRSSUBS <- "//smsahmserver01//Ceinfo-Planejamento$//CEInfo_GEO//compartilhamento_temporario//Bases_cartograficas_Revisao_AAUBS_ESF_2023_2024//CRS_UBS2022//CRS_2020_WGS84.shp"
-PATH_SHAPE_IPVS <- "//smsahmserver01//Ceinfo-Planejamento$//CEInfo_GEO//compartilhamento_temporario//Bases_cartograficas_Revisao_AAUBS_ESF_2023_2024//IPVS_2010_SEADE//MalhaUniverso_MSP_IPVS2010.shp"
-PATH_DADOS_NV <- "//smsahmserver01//Ceinfo-Planejamento$//SINASC//00Marcelo_BasesRN_Risco2020//mensal//SINASC_revGISA_AAUBS.xlsx"
+PATH_SHAPE_AAUBS <- "//seulocal//dados//AAUBS_MSP_2024_UTM_SIRGAS2000_23S.shp"
+PATH_SHAPE_STSUBS <- "//seulocal//dados//STS_2020_WGS84.shp"
+PATH_SHAPE_CRSSUBS <- "//seulocal//dados//CRS_2020_WGS84.shp"
+PATH_SHAPE_IPVS <- "//seulocal//dados//MalhaUniverso_MSP_IPVS2010.shp" #DESCOMPACTE o arquivo ZIPado antes !
+PATH_DADOS_NV <- "//seulocal//dados//modelo_dados_FALSOS_p_script_SINASC_RNRISOC_revGISA_AAUBS_NAO_INTERPRETAR.xlsx"
 
 # Caminho base para salvar os outputs (tabelas e mapas estáticos)
-BASE_OUTPUT_PATH <- "//smsahmserver01//Ceinfo-Planejamento$//SINASC//00Marcelo_BasesRN_Risco2020//mensal"
+BASE_OUTPUT_PATH <- "//seulocal//saidas//mensal"
 
 # Caminho base para salvar os outputs DE TESTES (tabelas e mapas estáticos)
-#BASE_OUTPUT_PATH <- "//smsahmserver01/Ceinfo-Planejamento$/CEInfo_GEO/SCRIPTS_MODELO_R/testes/nascidos_vivos_msp/"
+#BASE_OUTPUT_PATH <- "//seulocal//SCRIPTS_MODELO_R/nascidos_vivos_risco/"
 
 # Caminhos de imagens para o mapa dinâmico
 URL_BANNER_MAPA <- "https://raw.githubusercontent.com/gisa-ceinfo-sms-sp/dados/refs/heads/main/banner_NV_webmap_jan2025.png"
