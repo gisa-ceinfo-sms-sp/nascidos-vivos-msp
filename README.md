@@ -5,7 +5,10 @@ Distribuição Espacial e dados dos Nascidos Vivos (NV) registrados no **Sistema
 *Rotina em R para geração automatizada de tabelas, mapas estáticos com as frequências relativas e mapa dinâmico com dados para consulta dos dados sensíveis.*
 
 ***Os dados disponibilizados neste repositório são **FALSOS** e possuem finalidade única e exclusiva de reprodutibilidade da ferramenta compartilhada. Dessa forma, não correspodem aos dados reais organizados e disponibilizados pelo SINASC. Reiteramos que não devem ser utilizados para individualização das parturientes ou nascidos vivos, locais de residência ou leitura epidemiológica***\
-\
+
+ \
+
+  \
 
  
 
