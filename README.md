@@ -1,6 +1,6 @@
 # Nascidos Vivos no Município de São Paulo
 
-Distribuição Espacial e dados dos Nascidos Vivos (NV) registrados no SINASC de parturientes residentes no Município de São Paulo.
+Distribuição Espacial e dados dos Nascidos Vivos (NV) registrados no Sistema de Informações sobre Nascidos Vivos (SINASC) de parturientes residentes e de partos ocorridos no Município de São Paulo.
 
 *Rotina em R para geração automatizada de tabelas, mapas estáticos com as frequências relativas e mapa dinâmico com dados para consulta dos dados sensíveis.*
  
@@ -9,8 +9,8 @@ Distribuição Espacial e dados dos Nascidos Vivos (NV) registrados no SINASC de
 
 
 **Instituição:** Secretaria Municipal da Saúde de São Paulo\
-**Departamento:** Núcleo de Geoprocessamento e Informação Socioambiental (GISA) / Coordenação de Epidemiologia e Informação (CEInfo)\
-**Coordenador:** Marcelo Antunes Failla\
+**Departamentos:** Núcleo de Geoprocessamento e Informação Socioambiental (GISA) e SINASC do MSP/ Coordenação de Epidemiologia e Informação (CEInfo)\
+**Coordenador:** Marcelo Antunes Failla e Mirna Namie Okamura\
 **Repositório:** https://github.com/gisa-ceinfo-sms-sp \
 **Parceiro de Programação:** Gemini AI\
 **Data da versão:** 24 de junho de 2025
