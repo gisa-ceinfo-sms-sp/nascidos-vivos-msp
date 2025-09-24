@@ -8,6 +8,7 @@ Distribuição Espacial e dados dos Nascidos Vivos (NV) registrados no **Sistema
 
   
 Modelos de mapas produzidos pela rotina:  
+  
 ![image](https://github.com/user-attachments/assets/a636aeb5-9a0a-4d3e-bc18-7c35a4595516)
 
 
