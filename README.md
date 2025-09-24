@@ -9,8 +9,8 @@ Distribuição Espacial e dados dos Nascidos Vivos (NV) registrados no **Sistema
 
 
 **Instituição:** Secretaria Municipal da Saúde de São Paulo\
-**Departamentos:** Núcleo de Geoprocessamento e Informação Socioambiental (GISA) e SINASC do MSP/ Coordenação de Epidemiologia e Informação (CEInfo)\
-**Coordenador:** Marcelo Antunes Failla e Mirna Namie Okamura\
+**Departamento(s):** Núcleo de Geoprocessamento e Informação Socioambiental (GISA) e SINASC do MSP/ Coordenação de Epidemiologia e Informação (CEInfo)\
+**Coordenador(es):** Marcelo Antunes Failla e Mirna Namie Okamura\
 **Repositório:** https://github.com/gisa-ceinfo-sms-sp \
 **Parceiro de Programação:** Gemini AI\
 **Data da versão:** 24 de junho de 2025
