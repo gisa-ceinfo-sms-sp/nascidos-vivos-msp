@@ -4,7 +4,7 @@ Distribuição Espacial e dados dos Nascidos Vivos (NV) registrados no **Sistema
 
 *Rotina em R para geração automatizada de tabelas, mapas estáticos com as frequências relativas e mapa dinâmico com dados para consulta dos dados sensíveis.*
 
-***Os dados disponibilizados neste repositório são **FALSOS** e possuem finalidade única e exclusiva de reprodutibilidade da ferramenta compartilhada. Dessa forma, não correspodem aos dados reais organizados e disponibilizados pelo SINASC. Reiteramos que não devem ser utilizados para individualização das parturientes ou nascidos vivos, locais de residência ou leitura epidemiológica***  
+***Os dados disponibilizados neste repositório são **FALSOS** e possuem finalidade única e exclusiva de reprodutibilidade da ferramenta compartilhada. Dessa forma, não correspondem aos dados reais, organizados e disponibilizados pelo SINASC. Reiteramos que estes dados não devem ser utilizados para interpretações, análises de situação de saúde, individualização das parturientes ou nascidos vivos, locais de residência ou leitura epidemiológica***  
 
   
 Modelos das telas da ferramenta HTML construída pela rotina:  
@@ -17,7 +17,7 @@ Modelos das telas da ferramenta HTML construída pela rotina:
 **Coordenador(es):** Marcelo Antunes Failla e Mirna Namie Okamura\
 **Repositório:** https://github.com/gisa-ceinfo-sms-sp \
 **Parceiro de Programação:** Gemini AI\
-**Data da versão:** 24 de junho de 2025
+**Data da versão:** 23 de julho de 2025
 
 Arquivos gerados
 
